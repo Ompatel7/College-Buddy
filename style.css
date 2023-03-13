@@ -7,8 +7,23 @@
     overflow-y: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: sans-serif; */
 }
-hr{
-    height: 3px;
+.card{
+    border: 1.6px solid black;
+}
+.card:hover{
+    border: 3px solid black ;
+    transform: scale(.97);
+    transition:all 300ms ease-out;
+}
+.image{
+    /* object-fit: cover; */
+    /* margin-left: -150px; */
+    transform: scaleY(1.1) scaleX(1.1);
+}
+.hr{
+    height: 5px;
+    color: black;
 }
