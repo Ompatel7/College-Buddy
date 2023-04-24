@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/Favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,29 +13,32 @@
     <title>College Buddy -Home</title>
 </head>
 <body>
-    <div id="wrapper">
-    <nav class="bg-purple-500 ">
-       <div class="w-[75rem] mx-auto flex items-center justify-between ">
+    <div class="wrapper">
+    <nav class="bg-purple-500">
+       <div class="w-[75rem] mx-auto px-6 flex items-center justify-between ">
           <a href="#" class="cursor-pointer flex items-center gap-2.5"><img src="./images/Screenshot (83).png" width="140px" height="33px">BigFuture</a>
-          <a href="#" class="cursor-pointer flex gap-1 "><b>Sign In</b><img class="rounded" src="./images/signin logo.jpg" height="30px" width="30px"></a>
+          <a href="signup page.html" class="cursor-pointer flex gap-1"><b>Sign In</b><img class="rounded" src="./images/signin logo.jpg" height="30px" width="30px"></a>
        </div>
     </nav><hr>
     <nav class="bg-white ">
-       <div class="w-[75rem] h-20 mx-auto  flex justify-between ">
+       <div class="w-[75rem] px-6 h-20 mx-auto  flex justify-between ">
          <a href="#"><p class=" font-semibold text-2xl pt-9 pr-6 pb-3 hover:underline ">BigFuture</p></a>
           <ul class="flex items-end">
-            <li class="pb-3 px-6 pt-11 cursor-pointer hover:bg-gray-200 rounded transition duration-200">Plan for college</li>
-            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded transition duration-200">Pay for college</li>
-            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded transition duration-200">Explore college</li>
-            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded transition duration-200">Community & Events</li>
-            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded transition duration-200">My Profile</li>
+            <a href="./signup page.html"><li class="pb-3 px-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Plan for college</li></a>
+            <a href="./signup page.html"><li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Pay for college</li></a>
+            <a href="./signup page.html"><li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Explore college</li></a>
+            <a href="./signup page.html"><li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Community & Events</li></a>
+            <a href="./signup page.html"><li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">My Profile</li></a>
           </ul>
        </div>
     </nav><hr>
     <main class="bg-blue-50">
     <nav  class="bg-pink-400 mb-10">
-        <div class="w-[75rem] h-[4.5rem] px-1 mx-auto  flex items-center">
-            <a href="#"><p class=" font-normal text-2xl block ">College Search</p></a>
+        <div class="w-[48.8rem] h-[4.6rem]  mx-auto ">
+         <div class="flex mx-auto gap-60 items-center py-6 pr-10">
+            <a href="#"><p class=" font-[500] text-2xl hover:text-[#865DFF] transition-all">College Search</p></a>
+            <input type="text" placeholder="Search.." name="search" class="search px-6 py-1 items-center">
+         </div>
         </div>
     </nav>
     
@@ -43,19 +46,19 @@
          <h1 class="text-4xl font-extrabolds  "><b>Find the right college for you</b></h1>
          <p class="mt-6 mb-9">Choose a category to start exploring.</p>
       <div class="flex flex-wrap justify-evenly gap-3 ">
-         <a href="#"><div class="card bg-gray-50 rounded-lg">
+         <a href="./college section.html" target="_blank"><div class="card bg-gray-50 rounded-lg">
            <div class="w-[7.5rem] h-[5.5rem] px-8 pt-5 pb-2"><img class="w-14 h-14" src="./images/Location.svg"></div>
            <div class="w-[7.5rem] h-12 px-2 pb-6"><p><b>Location</b></p></div>
          </div></a>
-         <a href="#"><div class="card bg-gray-50 rounded-lg">
+         <a href="./signup page.html"><div class="card bg-gray-50 rounded-lg">
             <div class="w-[7.5rem] h-[5.5rem] px-8 pt-5 pb-2"><img class="w-14 h-14" src="./images/Majors.svg"></div>
-            <div class="w-[7.5rem] h-12 px-2 pb-6"><p><b>Majors</b></p></div>
+            <div class="w-[7.5rem] h-12 px-2 pb-6"><p><b>Degree</b></p></div>
           </div></a>
-         <a href="#"><div class="card bg-gray-50 rounded-lg">
+         <a href="./signup page.html"><div class="card bg-gray-50 rounded-lg">
             <div class="w-[7.5rem] h-[5.5rem] px-8 pt-5 pb-2"><img class="w-14 h-14" src="./images/Type.svg"></div>
             <div class="w-[7.5rem] h-12 px-2 pb-6"><p><b>Type</b></p></div>
           </div></a>
-         <a href="#"><div class="card bg-gray-50 rounded-lg">
+         <a href="./signup page.html"><div class="card bg-gray-50 rounded-lg">
             <div class="w-[7.5rem] h-[5.5rem] px-8 pt-5 pb-2"><img class="w-14 h-14" src="./images/Campus life.svg"></div>
             <div class="w-[7.5rem] h-12 px-2 pb-6"><p><b>Campus life</b></p></div>
           </div></a>
@@ -66,9 +69,43 @@
       </div>
       <div class="bg-yellow-300 h-4 mt-2"></div>
    </main>
-   <footer class="w-full h-[31.25rem] bg-black px-6 pt-[3.75rem] mx-10">
-     
-   </footer> 
+   <footer class="w-full h-[34.35rem] pb-12 bg-[#231f20]">
+    <div class="px-6 pt-[3.75rem] mx-10">
+      <div class="grid grid-cols-3 grid-rows-1">
+         <div class="box w-80 h-[27.5rem] px-3">
+            <div class="ftheading"><h2><b>College Board</b></h2></div>
+               <div>
+                  <ul class="ftsubhead">
+                     <a href="#"><li class="py-[0.38rem] hover:underline">About us</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">Careers</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">Membership</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">News Room</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">Research</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">Services for Students with Disabilities</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">College Board Blog</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">The Elective</li></a>
+                     <a href="#"><li class="py-[0.38rem] hover:underline">College Board Foundation</li></a>    
+                  </ul>
+               </div>
+         </div>
+         <div class="box w-80 h-[27.5rem] px-3">
+            <div class="ftheading"></div>
+            <div>
+               <ul class="ftsubhead">
+                  <a href="#"><li class="py-[0.38rem] hover:underline">Help</li></a>
+                  <a href="#"><li class="py-[0.38rem] hover:underline">Contact us</li></a>
+                  <a href="#"><li class="py-[0.38rem] hover:underline">Privacy Center</li></a>
+                  <a href="#"><li class="py-[0.38rem] hover:underline">Privacy Settings</li></a>
+                  <a href="#"><li class="py-[0.38rem] hover:underline">Legal Terms for Students</li></a>
+                  <a href="#"><li class="py-[0.38rem] hover:underline">Copyright and Trademark Permissions</li></a>
+                  <a href="#"><li class="py-[0.38rem] hover:underline">Report Cheating</li></a>
+               </ul>
+            </div>
+         </div>
+      </div>
+    </div>
+   </footer>
    </div>
+   
 </body>
 </html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/Favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>College Search</title>
+</head>
+<body>
+    <div class="wrapper">
+    <nav class="bg-purple-500 ">
+       <div class="w-[75rem] mx-auto flex items-center justify-between ">
+          <a href="#" class="cursor-pointer flex items-center gap-2.5"><img src="./images/Screenshot (83).png" width="140px" height="33px">BigFuture</a>
+          <a href="signup page.html" class="cursor-pointer flex gap-1 "><b>Sign In</b><img class="rounded" src="./images/signin logo.jpg" height="30px" width="30px"></a>
+       </div>
+    </nav><hr>
+    <nav class="bg-white ">
+       <div class="w-[75rem] h-20 mx-auto  flex justify-between ">
+         <a href="#"><p class=" font-semibold text-2xl pt-9 pr-6 pb-3 hover:underline ">BigFuture</p></a>
+          <ul class="flex items-end">
+            <li class="pb-3 px-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Plan for college</li>
+            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Pay for college</li>
+            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Explore college</li>
+            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">Community & Events</li>
+            <li class="pb-3 pr-6 pt-11 cursor-pointer hover:bg-gray-200 rounded duration-200">My Profile</li>
+          </ul>
+       </div>
+    </nav><hr>  
+    <nav  class="bg-pink-400 mb-10">
+        <div class="w-[48.8rem] h-[4.6rem]  mx-auto ">
+         <div class="flex mx-auto gap-60 items-center py-6 pr-10">
+            <a href="#"><p class=" font-[500] text-2xl hover:text-[#865DFF] transition-all">College Search</p></a>
+            <input type="text" placeholder="Search.." name="search" class="search px-6 py-1 items-center">
+         </div>
+        </div>
+    </nav>
+    <div class="h-28 w-[61rem] mx-auto px-6 mb-3"><div class=" flex-row  h-full">
+    <h2 class="text-2xl tracking-[.7px] font-bold mb-2 ">Find the Right Colleges for You</h2>
+   <h3 class="text-xl font-medium pb-2 inline-block">Location - </h3> 
+   <a href="college section.html"><span class="text-xl font-medium pb-2 hover:underline">Indore</span></a>
+   <a href="college section-bh.html"><span class="text-xl font-medium pb-2 underline hover:underline">,Bhopal</span></a> 
+   <a href="college section-uj.html"><span class="text-xl font-medium pb-2 hover:underline">,Ujjain</span></a>   
+    <h4 class="text-lg font-normal mt-2 l">15 Colleges Found</h4></div> 
+    </div>
+    <div class="mx-auto px-6 w-[61rem] gap-7 flex flex-wrap mb-6">
+   <!-- ------- college info card -------- -->
+   <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+      <a href="https://www.rgpv.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+         <div class="pb-4"><h3 class="text-xl font-bold">Rajiv Gandhi Proudyogiki Vishwavidyalaya -[RGPV]</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+         <ul style="list-style-type:disc;">
+         <li class="pb-3">4-year &#8226; Government &#8226;</li>
+         <li class="pb-3"><b>90% </b> graduation rate</li>
+         <li class="pb-3">25000 &#8377; average per year</li>
+         <li class="pb-3">Seats 350-500</li></ul>
+      </div><img src="https://www.rgpvdiploma.in/images/slide1.jpg"  width="290px" class="image2">
+      </div></a> 
+      </div>
+    
+
+      <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+         <a href="https://vitbhopal.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+            <div class="pb-4"><h3 class="text-xl font-bold">VIT</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+            <ul style="list-style-type:disc;">
+               <li class="pb-3">4-year &#8226; Government &#8226;</li>
+               <li class="pb-3"><b>89% </b> graduation rate</li>
+               <li class="pb-3">1.87 Lakhs &#8377; average per year</li>
+               <li class="pb-3">Seats 430-500</li></ul>
+          </div> <img src="data:image/jpeg;base64,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"  width="290px" class="image2">
+          </div></a> 
+          </div> 
+
+
+         <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+            <a href="https://www.rkdf.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+               <div class="pb-4"><h3 class="text-xl font-bold">RKDF University</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+               <ul style="list-style-type:disc;">
+                  <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                  <li class="pb-3"><b>60% </b> graduation rate</li>
+                  <li class="pb-3">52000 &#8377; average per year</li>
+                  <li class="pb-3">Seats 250-350</li></ul>
+             </div> <img src="https://images.shiksha.com/mediadata/images/1558506761phpXsu9mF.jpeg"  width="290px" class="image2">
+             </div></a> 
+             </div>
+
+
+
+             <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+               <a href="https://www.iiitbhopal.ac.in/#!/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                  <div class="pb-4"><h3 class="text-xl font-bold">IIIT Bhopal</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                  <ul style="list-style-type:disc;">
+                     <li class="pb-3">4-year &#8226; Government &#8226;</li>
+                     <li class="pb-3"><b>95% </b> graduation rate</li>
+                     <li class="pb-3">1.75 Lakhs &#8377; average per year</li>
+                     <li class="pb-3">Seats 300-550</li></ul>
+                </div> <img src="https://mycareersview.com/afile/mcv10481_IIIT%20Bhopal.jfif"  width="290px" class="image2">
+                </div></a> 
+                </div> 
+
+
+
+                <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                  <a href="https://rntu.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                     <div class="pb-4"><h3 class="text-xl font-bold">Rabindranath Tagore University [RNTU]</h3><p>Indore, Madhya Pradesh</p></div> <hr>
+                     <ul style="list-style-type:disc;">
+                        <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                        <li class="pb-3"><b>57% </b> graduation rate</li>
+                        <li class="pb-3">45000 &#8377; average per year</li>
+                        <li class="pb-3">Seats 150-250</li></ul>
+                   </div> <img src="https://rntu.ac.in/slider/images/banner3.jpg"  width="290px" class="image2">
+                   </div></a> 
+                   </div> 
+
+
+
+                   <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                     <a href="https://lnctu.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                        <div class="pb-4"><h3 class="text-xl font-bold">LNCT University</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                        <ul style="list-style-type:disc;">
+                           <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                           <li class="pb-3"><b>85% </b> graduation rate</li>
+                           <li class="pb-3">98000 &#8377; average per year</li>
+                           <li class="pb-3">Seats 350-500</li></ul>
+                      </div> <img src="https://lnct.ac.in/wp-content/uploads/2021/05/LNCT-A-scaled.jpg"  width="290px" class="image2">
+                      </div></a> 
+                      </div>
+      
+      
+
+                      <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                        <a href="https://oistbpl.com/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                           <div class="pb-4"><h3 class="text-xl font-bold">Oriental Institute Of Science And Technology</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                           <ul style="list-style-type:disc;">
+                              <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                              <li class="pb-3"><b>83% </b> graduation rate</li>
+                              <li class="pb-3">85000 &#8377; average per year</li>
+                              <li class="pb-3">Seats 200-400</li></ul>
+                         </div> <img src="https://images.shiksha.com/mediadata/images/1584350551phpjGuiQA.jpeg"  width="290px" class="image2">
+                         </div></a> 
+                         </div> 
+
+
+
+
+      <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+            <a href="https://technocratsgroup.edu.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+               <div class="pb-4"><h3 class="text-xl font-bold">Technocrats Institute Of Technology - [TIT]</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+               <ul style="list-style-type:disc;">
+                  <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                  <li class="pb-3"><b>85% </b> graduation rate</li>
+                  <li class="pb-3">74400 &#8377; average per year</li>
+                  <li class="pb-3">Seats 350-500</li></ul>
+             </div> <img src="https://digitallearning.eletsonline.com/wp-content/uploads/2018/04/Technocrats-TIT-Group.jpg"  width="290px" class="image2">
+             </div></a> 
+             </div> 
+
+
+
+
+
+             <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+               <a href="https://www.sistec.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                  <div class="pb-4"><h3 class="text-xl font-bold">Sagar Institute of Science and Technology [SISTEC]</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                  <ul style="list-style-type:disc;">
+                     <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                     <li class="pb-3"><b>63% </b> graduation rate</li>
+                     <li class="pb-3">65000 &#8377; average per year</li>
+                     <li class="pb-3">Seats 400-550</li></ul>
+                </div> <img src="https://images.shiksha.com/mediadata/images/1494399309phpEu6AvQ.jpeg"  width="290px" class="image2">
+                </div></a> 
+                </div> 
+
+
+
+
+                <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                  <a href="https://trinitycampus.co.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                     <div class="pb-4"><h3 class="text-xl font-bold">Trinity Institute Of Technology And Research</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                     <ul style="list-style-type:disc;">
+                        <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                        <li class="pb-3"><b>45% </b> graduation rate</li>
+                        <li class="pb-3">52000 &#8377; average per year</li>
+                        <li class="pb-3">Seats 250-400</li></ul>
+                   </div> <img src="https://content.jdmagicbox.com/comp/bhopal/n9/0755px755.x755.190520144017.x6n9/catalogue/trinity-instituteof-technology-and-research-raisen-road-bhopal-colleges-b6ohs8zt9x.jpg"  width="290px" class="image2">
+                   </div></a> 
+                   </div> 
+
+
+
+                   <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                     <a href="https://www.bhabhauniversity.edu.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                        <div class="pb-4"><h3 class="text-xl font-bold">Bhabha University</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                        <ul style="list-style-type:disc;">
+                           <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                           <li class="pb-3"><b>50% </b> graduation rate</li>
+                           <li class="pb-3">44000 &#8377; average per year</li>
+                           <li class="pb-3">Seats 250-400</li></ul>
+                      </div> <img src="https://images.shiksha.com/mediadata/images/1535440196php2IPGhx.jpeg"  width="290px" class="image2">
+                      </div></a> 
+                      </div> 
+
+
+
+                      <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                        <a href="https://bansalinstitutes.ac.in/bansal-institute-of-science-technology/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                           <div class="pb-4"><h3 class="text-xl font-bold">Bansal Institute of Science and Technology [BIST]</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                           <ul style="list-style-type:disc;">
+                              <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                              <li class="pb-3"><b>62% </b> graduation rate</li>
+                              <li class="pb-3">57000 &#8377; average per year</li>
+                              <li class="pb-3">Seats 250-350</li></ul>
+                         </div> <img src="https://img.collegedekhocdn.com/media/img/institute/crawled_images/Bansal_Institute_of_Science__Technologydcdk4.jpg"  width="290px" class="image2">
+                         </div></a> 
+                        </div> 
+
+
+
+                        <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                           <a href="https://mittalinstitute.org/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                              <div class="pb-4"><h3 class="text-xl font-bold">Mittal Institute Of Technology - [MIT]</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                              <ul style="list-style-type:disc;">
+                                 <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                                 <li class="pb-3"><b>68% </b> graduation rate</li>
+                                 <li class="pb-3">59000 &#8377; average per year</li>
+                                 <li class="pb-3">Seats 350-550</li></ul>
+                            </div> <img src="https://images.shiksha.com/mediadata/images/1493807551phpG4yRjT.jpeg"  width="290px" class="image2">
+                            </div></a> 
+                           </div>
+
+
+
+                           <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                              <a href="https://mpu.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                                 <div class="pb-4"><h3 class="text-xl font-bold">Madhyanchal Professional University</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                                 <ul style="list-style-type:disc;">
+                                    <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                                    <li class="pb-3"><b>58% </b> graduation rate</li>
+                                    <li class="pb-3">45000 &#8377; average per year</li>
+                                    <li class="pb-3">Seats 200-350</li></ul>
+                               </div> <img src="https://images.shiksha.com/mediadata/images/1557907205phprT8ecV.jpeg"  width="290px" class="image2">
+                               </div></a> 
+                              </div>
+      
+
+
+
+
+                              <div class="relative  w-[48.3rem] h-[18.7rem] college-card">
+                                 <a href="https://www.iesuniversity.ac.in/"><div class=" mb-6 h-full w-full flex flex-wrap justify-start box-border absolute"><div class="py-6 pl-6 pr-4 w-[29.87rem]">
+                                    <div class="pb-4"><h3 class="text-xl font-bold">ES University</h3><p>Bhopal, Madhya Pradesh</p></div> <hr>
+                                    <ul style="list-style-type:disc;">
+                                       <li class="pb-3">4-year &#8226; Private &#8226;</li>
+                                       <li class="pb-3"><b>68% </b> graduation rate</li>
+                                       <li class="pb-3">65000 &#8377; average per year</li>
+                                       <li class="pb-3">Seats 350-550</li></ul>
+                                  </div> <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhUZGBgaHB8cHBwcGSMcHxwcHB4aHBocHBwlIy4lHB4rHxweJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QGhISHjEhJCE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDU0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAECAwUGB//EAEMQAAIBAgQDBQYDBQYFBQEAAAECEQAhAwQSMQVBUSJhcYGRBhMyobHRQsHwFFJicuEHFSOCwvFDg5KishY0NVNzM//EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIBEBAQEAAwEAAwEBAQAAAAAAAAERAhIhMSJBUQMTYf/aAAwDAQACEQMRAD8A9jpA09KqhU9KlQKnpqVRT0qVKgVKlSoFSpUqBUqVKgVKlSoFSpUqBUqVKgalT01A1NFSpqqGNNT01VLETTGnNMaJiBpjTmmoYg5gEwT3Dc9wrlc17cYKYowHwcwuISo0FUmXjSJDxeRzrrDXj/tZ/wDMJ/8Arl/qldOEluVjlcjvuKe0q5dA+Ll8dEMCdKGGJICmH3tNrXF6hkfaZcZPeYWWzLoZAYKlypg295O46UB/ah/7L/mp/qoX2O4kmX4WmI94dwBMambEKqo8z8jTJ13/ANN9xt8J9psHMDFID4fuYOJ71QmkHVvcxGgzNRf2gVV94+BjJgxPvSqkaTszIGOIq95W3OKyvbnh2jL5vHQnVirgq4A5YbmW75V4PctUcO/tAyuIoTHVsMkaWka0MiDcXA8RV67Nk039V1fD86mNhpipOhxKyIMSRcctquoLguUTCwMPDR9aKvYbeVJJFxvY70XNc7fW5G3T1EGnmstJUqalUEqVNSop6VNT0CpUqVAqVKlQKlSpUCpUqVAqVKmoHpU00poFSpqVAqVMTTE0Q5pqiWpi1UImmY1EtTE0CmmJqJaolqBya8i9rP8A5hP/ANcv9Ur1l2MGN4tNhPKTXmfE+CY+PmkzfvMoup8JkUY7MHKkaQr+7E6tBiB610/zuX1jnPG9/af/AOy/5qf6qweAezqZnhyOq/4yuzI2qJ04nwkE6YKiK1/adMbN4S4E5VCXUn/HZjrAdwir7oapTtTYxNoE1XwFsfKZf3IOUcIWLOcw6xq7faHujEBgd9iDWts45Pus5766TiXEcFX9zikRiJJDCVKs6YYVu9mcAedcfxT+zlDqbL4rIdwj9pf5Q24HedVVZ3gmZx/fvi4+BrxAiIUdtKDDxVdhdZGkIe8kGtx+L4ypo95lWIWffHFKjTpJ942FpN4BMB4MbipN4/Kty/Yq/s8d/wBk0vPYxHQTyAIJHkxIrptVZfDFwsBEwFeTe53ZidTMxFgSST50ecVf3h61m+3W+PkxvaqcNXBP7U48W0z4C1RX2lx4+NRHcKzhr0ANThq8+PtHin/ijyA+1OONYp/4rfOmGvQdVKa87PF3ES7n13pl4k8/E3X9X76mQ2vQ3xVG5A8TFRbMIBJZQPEV502K17Ez3jnUcMMB3eJ29KeL7/HohzqDd19aY5/D/eFcAmIT8Q/Xyqxcy/QDwv8AWnieu5biWEPxiqn4xhDmT5VxS4j3mJ5WpM7cyvrFTYuV2h4zhdT6VE8dwu/5feuEw8yXnSRAttz60tDxGv0NXxPXbjj+GZhWtbl96h/6gXkJ864v3bfvSfGq3cxuIH8S/emxPydofaReS+rf0qhvakGQqSR3yK4zExiRyPhQuLmmRdQXTqtB3psL2dq/tYRMhAenP60//qlpA0pfxP5159iOCRLESJv86mHQDSr6iINhci/M7b02J671/asiBAk8o/rUl9oXIkAegrg2xCblYPPp12q1cy8iIg9Df0rPZfXbrx7EIkR3TAqpuN4pFnXyj7VyuK7cgSANrSTTID0jzvz/AF607LjpMXj+Kokt6R9qGPtPiHbf9d1c/is02Bg9004YxEGPDoJF4pOR1dMeM4sT7xLcgT022qK8bxSfjHfvbpyrmtbaYAG95WoriFRMAnvHyp2MdS/E8UEDWt+8/aotncUn/wDoPDWftXMDigVe0qyZsRcnrvtUX4wA+nQkWv1nz8az2rXWOjfiOKCTrmBNmmw7v6VjhGGGuXdxCqqiHAI0htDAHZgSCOhFAZ3jGiwRTIsQOu3OhMvm1ZyShv8AiPL1EXqznyLxjfwskzBteK4YthuGkboApPmAwHc0VDNZMt74LjWxT1/gVAI69nccrd9Zr8Y0nTpB0790edDpxlZnQJ9PSn/TkdZ8HvhBTPvST2yCG0yGZjDjZ99zfc86FwsfTFywGGEjYGJnyMm1RPEveHSQo523+t6zlzBLFQLT+vpT/pyTrxaeX4kFVFZdWhdM6jJMbzyq3+9R/wDUf+o1i5h9MFQI3i59ZNHZfG1KDo37l+1O+k4jMDMamacLsjby57xRQ0GDAHdY99D4HvT+AnvMD5USuFiESQo7jcwI2i/P5VezWT+nZlW4AjewHKhm4mtrE+IHTlRGLl8S4UgkavxQDpEmBvVWHw/HdNTn3ZtOkq7ENZYvF6RdX5bMahKgCD0/U1Nm7Wq4O0/L1oXEwiN2cRY6kAvzuNvSoDCJYdqV59s7d3dUw2DHxCSL/OrRjcjNBPgGOyEPix8viiqMTGdYJUx3LNpgza1TDRSuzse3Ag/CSDGxBq3DcKukT46v6VHCxQVMKb9ezHlBtUMHLqfixCO4JPzmts6IDPYWXl2nj1+/OnZ0I7WNhx0BY1E5XB6g/wCRvzaKJyuNhIO3hpA/HoE91gDUXWe+ZQWRyTOwSLde81NH5kN3Bl/0waMx+KLJ0KCpPjEASIkeO3Ohv2tybDnyERYRsKmokcxECBfoqi3XYbdd6bDwjuEAnwB8bCo/3loXtKrSxEsJItPM3FEZfMBxqHU7CBvaO6Kl1O03FOAjOxBhQCe8mLelWZvhCvEuRHSgcTCxjjEIXCsSdWmVFpuYttF+o7qJfBzKmzauVivrYQfKik/BJuWkxGw+cm9LD4LH4wD/AC04xsxYFkQDcuyr6Xoo8FzLkE46qP4RNrXBEUMij9gI/GD/AJBV65UxyJ7wfyq5OBZjVIxuyOTb7ATO1zfzpv2TMk9kIyhiGMgbDlIE3rORZMUplGZxfCC85cg/M2q3FyJW5VI6jFWP/KoJlMa+pJIJBgr49ekbUHmcFw1sNjESAJI8QNqvWGrQ6CV0jx1Bv+6/1ql8XCEEkQeYM39K0chwtX+NGV/iIa25MW35CjsvwxVkDDw1g76Jnv8AitUyLrBXAZ50IYgw7EBTYXGxI6kTEVPDyk74mGf5XkyeZHTvrczWUOkhigEETqKwD/lNc9mclgCU1AKSGlG1GRFto0wPrWuMn7Si8Thbi8qRMCGm/TbrVDcLeTK2Hr5DptRP9/qgICarkyx0zJmYE0BmfaTEOxVfAfeadabE34Q/7k+YNZzZePiUKeh0zbwNC5ri7N8TlptvI9Nqz3zbHbqB6x96s4prWfLYZBEyzeAv3k1kPkCpgkR43pkZiwv+MgeVG5l1KnWeVwDtvsRWOX41qVlYKK7EKW17C486MTA0SGkEwfLkOnWqcoVDHSmmbA3+tp86MzDggBh4EA/UnvqW+JnjOZHYki0bCtxTgAAd37v9azmeLClrBvIHdIrF5VmWxtEIoB0gg9HBg8oImD41a3EiBYKAOZHTvrHwsKVYA2P23+h8qpbMMqyjFSV5HnH3r04uuly2dxCQ2kOp6QfkskedGpm1smkhpAE3i8idjY1y+W4mGRS+GJ1X0HTcdZ1DadhR2BxKNZTHdDNg4IA5QCJnY7qO6pYa7BeFuSCcUkhg/ZX8QEAySeVWf3WSO2Wczc2v5LtasfLcazAZQoTFUiSVAcjoewZA8RNWZ32pxFMDDUGLzO/haPWplXY0n4Oh1HQtxbe1uZ3N6rbhSysagIMkMTB5b+dc3mPabHae2F/lAH3NZWNn3f43d/5iT9T+VMNbedw1TEZFbULGZBN5mYqgGsNcRgSR0P8ASlkeMlnVWUXMSJFbkZb6mpgoSFcSp3Ex8wRFCu8UsB5mwPjf/aoDWy2Cqzhox0nX2WJggc/iMeVUYThhIa7C8RP5fSouwIgg+u3rNdNhcVTFhBgyxESwWJjwNZsq+OPz2ADEvAWd9zK6b33onhyFV0Yau9ybKWMnwArr8tw4rcYOFq/e5/8AharcpjYrs6AInuzBMFpmdgCOlTTrHOpl82wAC6B1JRPU3c1P+4cVrvjqJ3jU87dY6V0r5R//ALU8k/LXQ2e14eGXV1YgiAUtuB176a1jIyvAsJhJOI46SFFu4fett2KICqWEC/TbxNWZPKHQCGjV2iNAiWuYvYU68JVW16+1yOmT85qUIv8Axel6EXNJhr/iNzJJg3k7xE+gqOEHf3o1wVaE7CRbaezWD7Q8VzOEgR8RwXMBVI+A2kxyqyFrbw89lyWZcVQGg3OnbuMGhcbi+CpJBZjtIG/mYtXDZbMVDH4moMapO0CtdYx2rsMb2hI+BY/mM/Ks7McaxG/HH8oj571yud4g6wQoggEk7gmbR5fOnwWfERSGm9z8MXFu/Y1eufpO2tfMZ6bs0naSZNB4nELgCbz3fDNVJhhgSeTE1AMuiTGqDHW9FSfGYxyBj53NJEIe5mxPrVb5gHSo/D9QKDyuISHJJJimAoEQnXVfwuaqOLNgPxFvSftQozSCDMxuPKKH/vDYBdpg+NUaeCzyGVSxu0ATuatx8R2YalZbQZB5bUDlc28OADqK9mLQR2rdTA2q/hOJmGxACrwLEmVA6yeZ7q58/fWuOJZcKGMsd9rj1kUSIIkHnG4tNbjZJ2BF/O/+9VvkXCmFA5Tp277Vx7StsDM4cQFa/fH1/W1DvhkGJ+lbODkZs6o9vikgk+Ai1UZjBwgY0Hv7Z39KuyJcRy+MbQbfly+UVmZrHvBO0m21zP3qkY/ZAMEx12j+kelDYmKTau9rEa3DswnaDiASCI67A+FHjBVogjt3M8mBBP51zeCxJjqCPt8wK28NiRJGxB6EEx9z6VYlEBGDK14UwegIMT3Wq/WziXbUQ2mSeUW/Ohkxj2hNm5Hrtv4iijmpSCsG3rVwYyYz6wJYw1/CYNq1CYJFNjZpE3YDnHP0qo4gMMNiJqizXesbDfS4P7rD5GjHzA1RzFZedeHb19b0HaZh7ChsPGI1wbhZHlVfvtWGrdQp9RVWRxRrAPMEfnUsB2XzTFGYgEjaOYiaty3EyACsqZBMG/IjSYsd6cYagEAATvFqCxsmo5kg9T0B571KnrscH2sw4AYYg8SG+cj6Usnx/AXEdiWCtBB0zfnblvXCNk79l3XwaR86YZRx/wAU+ag1nI1telL7SZe51Mf8htQnEvaLAZGUaiT3RzB3muCXLPIPvLTtoF/nVvuGv2z5LFMidq7bD9r0VVUISQAPiHIRbehcx7aPHZRQe8kj6D61zOGpX8ZPjHLyof8AZUmYk95J+VMh2o1vah2dguJpOIZOgfmASB51l5jFdmJJ53JJJaDPl51eFAFgB4CKCzjkRHUA+FJ9D4D3p8fJq5kjzm/yih8s9x41BuKSxULESJJ6W26V0SwacsliRJAAk3sKkc4qwovO0bbx+dY2dV3YQSRpE3hZi5qzCxkRVBMsLDzM1SDPetAiYuT/AFND4rADUW/DpjxM0M+eIBUCRf8A3oOZMzUqjszmwfg8z3neqFx2VT32qh1g2M1MYxiLek1naKHSOdSwlk7wOsH8qQA6g1bl1OqNJvzH6ipVg3L4QiA6NFxDFWA7gy3oxsfFKp/jB1k2m87nUNjcm5mhlyzKZL6RztE91F8Pygf4IVBud2Ph0qTyfkufwZw/iLjFXUS5iNK2geE6beVdE+aXo3rWVgZREACqB38/WiCK48st8dOMW4ucJBsAO+/5ViYmMk3a/n960MbCBUieXKuaOZ0dnTt3f1rlZrH+kZ74RHhVyYwgT9P1yrd4nwvQSVDFOpG3nzrGxstzFeuXWcDo8MO/6bVp5HMjSVMyZH5j61kYqEflT4WYKmd4itSpXTKVZk7xBjqLg+oqCoQG6CRHgSZHrFYyZqAdJIMzR2Hmu0FP4uffz8Nq0HzmULlWDAWg+tW6dCKJmLTVGYzJRNUGJidhPjRXC+EZnMg6cNgOTHsr6nfyqUYWO3bJ76rxZdgBuYHnXonD/wCznnjuT/Clh/1G5+VNn/ZNMGDhusEH4zBBHLVt6x86zOUXHMZHEPughBkCPQ2+lTwEYOrEWkehtVmZxkSzMJ6CsvM5s6l02nbyresxq8LZ1xGRtemGKzMWa0ctj1qWWzzu5wyokFri3wz5bVXh8XAYq4PiL9+1FYPunbWmnVe4sTIvI5+dPKepvbcQe+olqxMDOurugdgATAm0A9DatJcyxwnY6SyaSOwuxN+XdWOp2Fq1Sms/KZ4vqBVRHcfvVwzF4hY/ln61MS8pBOqoCTsCfAfasTi/EnTFdFaACIgAQNI6DrWUnFMVZjEe+/aM+tOrTqsxiBBLnTy6n0H5kUD+2K6OQsAEXJubj08Ko4i3+Ai87+faU0IiMMs5IIkrHf2hW5MTRGWxLjxqwYSIS0XJkknrfwrIyuORFW4rlpJMjpTYi/O53kKzwb1ccORIqgzMRU7asFYbi4MwdwKrxlAaFmABvvMXnpUMM3HKiBgFrQPHr31FRRwQQT+fy50XhaxB0yRsVYoY8oqnD4ewNq1sPCCiSfOrLhgbFwvfQWDB+ZIUW6WA1eJvU8rkNDjQS7/ujb/NWhgZd3ICqyIfxRBI8eVbeWyioIUeJ5nxPOs8uTU4gMvwu4Z+03IfhHgOdGLg+VFKk7fWmOIsQCCRMnkPOuXLlrW4piKgzUsPNA7C87H6+FQx8ftqCLtJPl0rPh2RxKFfBUmSt/Cjyo638Kr99FqtyGytR3DC4kd+32NU/suFclFv3D671VHnVqCeg8avquW4rktLnsnSTYzqnxPXxrHx8t5fr5eddxxLHVElwWBIUwJ+KwPQCYrEzvAokodR3IP5GunHl/WbHLuIozK4vwkz96sxMHkR5frarcHBTnatsOt9nczgWZGhhsuIAw1Hcgdbcj1rq8f2mXCC60sTEqwsOZAMHbl8683zGTfDUa0ZAw1LqUrIB3E7iqFxu2FJkkRc8onny5WrN47WtdlxX2+a4wlCjqbn52Hoa43P8axMcnVimfGfITy8Kx8XNGSDEgn5WvVGLcyLfrlVnGRNWZkEGZvA9alrJRCdwSPzqWAjMOvfR2WyBIgbVbZPqM7FxwT0MCZ6irMg7LiIZMa1nwkTWieD4YmWMnlO3WOtWlcJAOybXnwFhXP/AKcf0miMTgz6mdCrg3gG4ncGd6WFhMuHiqykEpYEbkSYHU1BM4qux16dWkj6H6Ub7/V+KYE7j7V1lZxz2A7pbQb72NFLmjaEf/ppNxEkrZBqMXLk7wdliqnz7wYOH2SAYVjzjmta2L1R43k3fGZkWVMXtGwFCLwhhd2Cj1o7iuK4fSrNEDYDvm/pQ+ZwpiTq238P61jlykPRL4iKqyNcTp6Xjy5ULmc0zBlbYnbpEbelV4+LAg7cqpTGMR17qz2tXFJEHfem1EwKtbBJuKX7O3SrirkVuhq5sozRAv0psszyJFtvLrWkmF+hTrgDwcrpJm52/XWjUwqu0BRJsPr5VfhcOxHEgBF5TYmluLFGChY6UXUe7YeJrUyHCir6sTSx5XkDyij8hkwiBdjufGiwkb+Vq5cuf8bnFDQfSn0ik7fOqszmBhkKFD4kTomyd7/b16VjNatw2ZYqwDMoVlJCmxP8XhNYiFtf4gpuQe1O6jTOwkjc2oTO5n3hYtiazO91nvBPZibR0qjLZfHRlbUApO7sCInVEA6rkd1Xr/fGb1s3R2Nw93M6WQGZEywjewFxcbUJlsvjaiQrgqLE9D0BIjxqODxPERyXBe5tdTBPKdtqPwuMrqOsbgWibCefnW+lZ8UZnibiSJnnAkWoYcRc30z36a3Mvj4bMWAEQALWtJJ6c/lVy4WGxJIG9tug/OaxZn2LgxsxFgAKpbFE2NUKaeRVahs3hl0KyLxvPIg+tqvQWtVaA+VWgjz+VDA2b4cmIJNm5ED69ax8BXy2KjkldJlXADAHkYNvI10YE86pxMEMCrCx3HUVrjyxmwPx/jD4yKfd4ctOvEDyjWEEIbq28iT3VhZjNZcqgw0b3ifG5ezHmFXp6edFZ32eJnQx0zOkmJP0rIOUZW06SD0i9du0sYzEMXLFnJCiCZkz52o3IcKdyFVS7dAJ/wBhWxwHhxeGxTCdNmI8eVeicLTBVdOEoUdOZ8Tua58uWNTjrksr7FOUlnVX5Lv/ANTDbymsDiyPgPoaARyBBkeI2r1uvLf7SUf9oDFCEhVVosx3N+Zvt3Vzt7eU5cZjDfHQEGQ25vuPSq8XMarKvaO2rpyjlQTMFWCJJO21v19KWsGbfO/l3d1WcYxIm2DPZmTMWuOvjFFcMUo7FjbSR+h51bk8uhw3xNTKykDRpJDA7nVyYHkaqbFHQ1143xrqpYm0NszH4m2MRy8afEadYDWJle0370jla1RLd1MWNXTBGdcO4I6QTHnVebIACiCQO0QZkxVOqDf0NVviAkmQNzArnym1MR1TY3gRT4WXJO8c6rOIOVSwwzbeu0edakGiuCYhbHrVohQNRv0HPwoVMwQIBk9ftTKxmZM9a6JjVw+Gu6kwE6Am5+1RwMpihtAUg/LxnajuD8Q1kI/xcm69x7630Tvrly5WX1ucdAcP4UqnU3bf5DwrXKL0+dVglbinfGDCIg9a522tySLsUJA071QUJiDcmAO+h3xwhEsBJiTtRGFxDC0sCRpmNRsG7oIsKTjtW+TQ2fxmRjho3bUS7myoOek7z3+nWsnKZZ8wdCEjDntubM/9O6u/y3s1gY+ErM5ZhdWw3jRPIH6za1Zua9ns1l74Lpjp+64CP6jsnxtW+OS+ufOcrPxAnh6IAqoABzj5zWZn+GqVYqp1C5AFiB17++jMbirAgPhvhsDcMLeTCxoHP8ZkNpGxEX+L+lZ557648Zy/bJwsNVBJICzIDCSZ5c4vaK1/7hwXwXxUdw6gEoybkxMdLnqfCsR8wysuJijTcaglzpkSQCLHvk862czxfKYaDEy7uTiHQ6EklfxayCNgVG3M1Pf06SUOnCPcu0xKmJUyJ5wY8qz83xvSxVUUgWnv51LifGF0RhvqZudxA5kg865rXXSb+113sVYh5fSpPhAG2xuPDoe8G3lTgRtXN0RA6/Op6h0pxpG+9ML3AjxoFH+1TIqKWNXOYvQxDuingDlfrF6dVJpR1oh1QHYx40XgGLz4GaDHhUw55CpSN/LcUIs1x15/1ovMYODjqpcK4Qkw2wJBWSPAmuW0t1qvGzD4Ss6k6gOR38eo8aYtYHtbwZEzA9yVCMJPbGlWJaQIuBtaKystwpdRLuNIKg6RqJ1SJExzj1p+LZz3zlnGk/w/D46eXlQmDhsJAcQd4N7GRblXXrcY2OwzSMmW1ojshJRYDDYG5XW4K2Ik865pcuvf+vCtXKcYxMLD93huQDE846gA2g0O+UdApZSAwlSRYjuPOtcZn1nly/gZcAdBUtHdRCoYMct6qfFUbsPrW2PQmNlg24rLxcAhioE9K1cTNDkKGdyaWNQIuCBvc9B+Zq258Og2qzTVuFhFrKpPgJpiqVSiMLBLEACSaLHDWUanIQd5ufKoLjEKUWADu3NhyB6Duqb/AAV4YhhG4Nj513Fh0rB4Pw0gh3Ft1HXvPdW4a5c7K3x8TZ7XoPMNpUsSFA5sYFyB570cmGqAPiTf4UHxN3/wr3+lYntI6v2wriRpKgWS1isbra4Invrns3F7SfROdypxAgLakEGEHxGJJJ53tNFcC9n/ANqftkLhobqpEnuA3Hia4rLZzEwro509118xy+VbeT9oVJGsFHH40JHzBkV2kz4zbeX12+N7JPhHXlcVkP7pMejCx8x51WPaPMYJ0ZrB1DrEE/6W8qbh/tRiCNRGOh/EsBvs3oKJ4p7W4GhwULDRMOAFnaGBM/K/Wl9+w+fFpXI50CCFcdwVh3EGxrMxfYwe5DpiaW06rraCNUGDuOtcNh5nEzDEKCiTI0nTp6Tyat/K8UxsshHvdSECUY61CwBAMypItAI8K53/AD/i7L9ZXHOC46HTiq8gAhkGpY9Z+Vc8+WYG5DjuMN5jf617Dwb2owMyUV00ORK64INxZW3nuo/ivs5lswIfCWeTr2XH+YX9bVJ+P0k/jw/ByilkTXp1MA0idA5tbf8ApWhxfhOCMQjCdtECNRViTzMxtNdRxX2DfCOvBc4g30uoJ27rH0rLfJYiHS+VbV3FgPIC1bvJLK2xh6kI5jtDxAuPNR/2iqVW3dSpVy/TqQSKQbumlSqxKs02nbxqsP50qVIytw1J51MoOdKlVVNMNetTCg7UqVEVuw6zQfENWhtEg8v0aelSDjMXCINwfOq/d0qVd3MlB2E11mFw4HDCPJgWI3HgaVKsc/0sZOY4PiIZWWHIjf0oHGLGzKAR/DB8+tKlWuF0q8YuHzwvRzTti4ewwo79ZmmpVpFLEapUQBeCZo5uIYjdlIXuRYP3pUqnL4RLA4VjOZYFR1b9Sa2crwjDSCe23eLDwFKlXK8q3kGI14AkmwESfKrm04W8Nifu7qn837zd2w59KalXLnbIl+AMTG1MSSSx3JuTTTNjSpVxYjOznC1btKIPUGD/AFrGzXDnXcT3qL+a/alSrr/nzpA+DjvhnUjEd4P1H3rXy/HUcFcdAZtqAkeJH2pqVepptZMYSrOGQyxIIvB3gzXNcZ4jrfSp7IO45nmfClSpBpcB1lji6SzqJXkFE7j+KvRuG+0iOoBR9Q+KFm/lSpVx5fa3PkbqNIB60tIp6VZaf//Z"  width="290px" class="image2">
+                                  </div></a> 
+                                 </div></div>
+
+    <div class="bg-yellow-300 h-2 mt-2"></div>
+      <footer class="w-full h-[34.35rem] pb-12 bg-[#231f20]">
+         <div class="px-6 pt-[3.75rem] mx-10">
+           <div class="grid grid-cols-3 grid-rows-1">
+              <div class="box w-80 h-[27.5rem] px-3">
+                 <div class="ftheading"><h2><b>College Board</b></h2></div>
+                    <div>
+                       <ul class="ftsubhead">
+                          <a href="#"><li class="py-[0.38rem] hover:underline">About us</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">Careers</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">Membership</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">News Room</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">Research</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">Services for Students with Disabilities</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">College Board Blog</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">The Elective</li></a>
+                          <a href="#"><li class="py-[0.38rem] hover:underline">College Board Foundation</li></a>    
+                       </ul>
+                    </div>
+              </div>
+              <div class="box w-80 h-[27.5rem] px-3">
+                 <div class="ftheading"></div>
+                 <div>
+                    <ul class="ftsubhead">
+                       <a href="#"><li class="py-[0.38rem] hover:underline">Help</li></a>
+                       <a href="#"><li class="py-[0.38rem] hover:underline">Contact us</li></a>
+                       <a href="#"><li class="py-[0.38rem] hover:underline">Privacy Center</li></a>
+                       <a href="#"><li class="py-[0.38rem] hover:underline">Privacy Settings</li></a>
+                       <a href="#"><li class="py-[0.38rem] hover:underline">Legal Terms for Students</li></a>
+                       <a href="#"><li class="py-[0.38rem] hover:underline">Copyright and Trademark Permissions</li></a>
+                       <a href="#"><li class="py-[0.38rem] hover:underline">Report Cheating</li></a>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+         </div>
+        </footer>
+
+     
+
+
+
+   </div>   
+</body>
+</html>
