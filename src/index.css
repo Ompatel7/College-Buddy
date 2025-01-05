@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width : 400px){
+  input[type=range]{
+    width: 44%;
+  }
+  .searchBtn{
+    width: 50%;
+  }
+  .budBtn{
+    width: 22%;
+    font-size: small;
+  }
+  .collegeCards{
+    width: 90%;
+  }
+  .collegeCard{
+    display: flex;
+    flex-direction: column;
+  }
+  .collegeCardImg{
+    width: 100%;
+  }
+  .collegeCardDetails{
+    width: 100%;
+  }
+}
+@media screen and (max-width : 450px){
+  .collegeCards{
+    width: 90%;
+  }
+  .collegeCard{
+    display: flex;
+    flex-direction: column;
+  }
+  .collegeCardImg{
+    width: 100%;
+  }
+  .collegeCardDetails{
+    width: 100%;
+  }
+}
+
+@media (min-width : 450px){
+  .mform{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 24px;
+  } 
+  .BackgroundImg{
+    transform: scale(2);
+  }
+  .loginPage{
+    width: 75%;
+    margin: 48px auto;
+  }
+  .signUpPage{
+    width: 75%;
+    margin: 48px auto;
+  }
+  .collegeCards{
+    width: 90%;
+  }
+  .collegeCard{
+    display: flex;
+    flex-direction: column;
+  }
+  .collegeCardImg{
+    width: 100%;
+  }
+  .collegeCardDetails{
+    width: 100%;
+  }
+}
+
+@media (min-width : 530px){
+  .mform{
+    width: 70%;
+  }
+  .loginPage{
+    width: 60%;
+    margin: 48px auto;
+  }
+  .signUpPage{
+    width: 60%;
+    margin: 48px auto;
+  }
+  .collegeCards{
+    width: 80%;
+  }
+}
+
+@media (min-width: 640px){
+  .collegeCardImg{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit:scale-down;
+  }
+  
+}
+@media (min-width:860px){
+  
+  .collegeCard{
+    display: flex;
+    flex-direction: row;
+  }
+  .collegeCardImg{
+    width: 35%;
+  }
+  .collegeCardDetails{
+    width: 65%;
+  }
+  .collegeCards{
+    width: 65%;
+  }
+}
