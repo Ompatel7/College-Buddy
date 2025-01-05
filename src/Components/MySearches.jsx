@@ -1,7 +1,7 @@
 import { collection, getDocs, where, query } from 'firebase/firestore';
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import { db } from './fireBase';
+import { db } from './FireBase';
 import UserCollegeCards from './UserCollegeCards';
 
 function MyTrips() {
