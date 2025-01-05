@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 // import useImage from '@/hooks/useImage'
-import CollegeImg from '../assets/Collegeimage.svg'
+import CollegeImg from '@/assets/Collegeimage.svg'
 
 
 

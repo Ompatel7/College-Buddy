@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../assets/logo.png';
-import signin from '../assets/Signinlogo.jpg'
-import loggedin from '../assets/Loggedin.jfif'
+import logo from '@/assets/Logo.png';
+import signin from '@/assets/Signinlogo.jpg'
+import loggedin from '@/assets/Loggedin.jfif'
 import { Link } from 'react-router-dom';
 import {
   Popover,

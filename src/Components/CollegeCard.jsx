@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CollegeImg from '../assets/Collegeimage.svg'
+import CollegeImg from '@/assets/Collegeimage.svg'
 import { Link } from 'react-router-dom'
 // import useImage from '@/hooks/useImage'
 import { CiBookmark } from 'react-icons/ci'
